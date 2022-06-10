@@ -1,0 +1,160 @@
+/*PC*/
+@media (min-width :1024px) {
+
+}
+
+/*Tablet*/
+@media (max-width :1023px) and (min-width :740px) {
+    #content .content-section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #nav .sub-nav li {
+        padding: 5px 0px;
+    }
+    
+    #nav  li:hover {
+        background-color: #ccc;
+    }
+
+    .content-tour .place-body .buy-btn {
+        padding: 16px;
+    }
+
+    .contact-inform > p {
+        line-height: 2;
+    }
+
+    #content .contact-content .form-text {
+        padding: 10px;
+    }
+
+    #content .contact-content .send-btn {
+        padding: 16px 24px;
+    }
+
+    #footer .social a {
+        font-size: 36px;
+        width: 48px;
+    }
+
+    #footer .copyright {
+        font-size: 20px;
+    }
+
+    #footer .copyright > a {
+        display: inline-block;
+        padding-top: 10px;
+    }
+}
+
+/*Mobile*/
+@media (max-width :739px) {
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8px {
+        margin-top: 8px;
+    }
+
+    .s-full-width {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .icon-search {
+        display: none;
+    }
+
+    #header .icon-mobile-menu {
+        display: inline-block;
+        float: right;
+        color: #fff;
+        line-height: 46px;
+        padding: 0 22px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .icon-mobile-menu:hover {
+        color: #000;
+        background-color: #ccc;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li > a {
+        display: block;
+    }
+
+    #nav .sub-nav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .sub-nav li  {
+        
+    }
+
+
+    #nav .sub-nav li a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 46px;
+        line-height: 46px;
+        padding: 0 0 0 36px;
+    }
+
+    #content .content-section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #content .content-section .member-img {
+        width: 60%;
+    }
+
+    .content-tour .place-body .buy-btn {
+        width: 100%;
+        padding: 16px;
+    }
+    .contact-inform > p {
+        line-height: 2;
+    }
+
+    .contact-content .contact-form {
+        margin-top: 16px;
+    }
+
+    #content .contact-content .send-btn {
+        padding: 16px;
+    }
+
+    #footer .social a {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+
+    #footer .copyright  {
+        font-size: 20px;
+        display: inline-block;
+        padding: 6px 0px;
+    }
+}
